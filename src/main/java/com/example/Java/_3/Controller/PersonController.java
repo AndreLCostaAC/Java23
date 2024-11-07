@@ -1,9 +1,10 @@
-package com.example.Java._3.Person;
+package com.example.Java._3.Controller;
 
+import com.example.Java._3.Model.Person;
+import com.example.Java._3.Service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDate;
 import java.util.List;
 
 @RestController

@@ -1,12 +1,11 @@
-package com.example.Java._3.Person;
+package com.example.Java._3.Service;
 
+import com.example.Java._3.Model.Person;
+import com.example.Java._3.Repo.PersonRepo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.time.LocalDate;
-import java.time.Month;
 import java.util.List;
 import java.util.Optional;
 

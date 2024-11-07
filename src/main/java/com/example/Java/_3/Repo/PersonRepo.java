@@ -1,5 +1,6 @@
-package com.example.Java._3.Person;
+package com.example.Java._3.Repo;
 
+import com.example.Java._3.Model.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

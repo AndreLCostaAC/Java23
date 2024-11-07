@@ -1,11 +1,12 @@
-package com.example.Java._3.Person;
+package com.example.Java._3.Config;
 
+import com.example.Java._3.Model.Person;
+import com.example.Java._3.Repo.PersonRepo;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import java.time.LocalDate;
-import java.time.Month;
 import java.util.List;
 
 import static java.util.Calendar.DECEMBER;

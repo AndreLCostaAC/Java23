@@ -1,4 +1,4 @@
-package com.example.Java._3.Person;
+package com.example.Java._3.Model;
 
 import jakarta.persistence.*;
 
